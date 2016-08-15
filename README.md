@@ -31,8 +31,17 @@ TranslateApi.languages
 ```
 Trnaslate:
 ```
-TranslateApi.translate('en','ru','hello word') 
+TranslateApi.translate('en','ru','hello word','optional translate method from get_routes') 
 ```
+The GetRoutes function:
+```
+TranslateApi.get_routes('en','ru')
+```
+The GetProviders function:
+```
+TranslateApi.get_providers
+```
+
 
 ## Contributing
 Contribution directions go here.

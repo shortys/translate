@@ -1,5 +1,5 @@
 # Translate
-Short description and motivation.
+Gem for fast work with http://itranslate4.eu service
 
 ## Usage
 How to use my plugin.

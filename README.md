@@ -21,6 +21,10 @@ Or install it yourself as:
 $ gem install translate
 ```
 
+```
+$ rails generate translate
+```
+
 ## Contributing
 Contribution directions go here.
 

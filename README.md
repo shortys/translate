@@ -24,6 +24,15 @@ $ gem install translate
 ```
 $ rails generate translate
 ```
+## API methods:
+Get languages:
+```
+TranslateApi.languages
+```
+Trnaslate:
+```
+TranslateApi.translate('en','ru','hello word') 
+```
 
 ## Contributing
 Contribution directions go here.

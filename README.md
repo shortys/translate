@@ -1,5 +1,5 @@
 # Translate
-Short description and motivation.
+Gem for fast work with http://itranslate4.eu service
 
 ## Usage
 How to use my plugin.
@@ -20,6 +20,28 @@ Or install it yourself as:
 ```bash
 $ gem install translate
 ```
+
+```
+$ rails generate translate
+```
+## API methods:
+Get languages:
+```
+TranslateApi.languages
+```
+Trnaslate:
+```
+TranslateApi.translate('en','ru','hello word','optional translate method from get_routes') 
+```
+The GetRoutes function:
+```
+TranslateApi.get_routes('en','ru')
+```
+The GetProviders function:
+```
+TranslateApi.get_providers
+```
+
 
 ## Contributing
 Contribution directions go here.

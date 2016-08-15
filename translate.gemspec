@@ -5,7 +5,7 @@ require "translate/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "translate"
+  s.name        = "itranslate4"
   s.version     = Translate::VERSION
   s.authors     = ["Ivan Osypenko"]
   s.email       = ["hello@itsites.ru"]

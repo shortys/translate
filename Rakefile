@@ -10,7 +10,7 @@ RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title    = 'Translate'
   rdoc.options << '--line-numbers'
-  rdoc.rdoc_files.include('README.md')
+  rdoc.rdoc_files.include('README.rdoc')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
@@ -19,7 +19,7 @@ end
 
 
 
-require 'bundler/gem_tasks'
+Bundler::GemHelper.install_tasks
 
 require 'rake/testtask'
 

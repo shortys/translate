@@ -1,0 +1,3 @@
+module Translate
+  # Your code goes here...
+end

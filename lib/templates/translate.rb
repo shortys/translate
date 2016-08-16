@@ -1,3 +1,4 @@
 Itranslate4.configure do |config|
-  config.key = '' #Need add you Api key
+  #Need add you Api key
+  config.key = '' 
 end

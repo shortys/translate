@@ -1,4 +1,3 @@
-options={
-	key: '' #Need add you Api key
-}
-TranslateApi=Translate::Itranslate4.configure(options)
+Itranslate4.configure do |config|
+  config.key = '' #Need add you Api key
+end

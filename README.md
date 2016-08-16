@@ -27,19 +27,19 @@ $ rails generate translate
 ## API methods:
 Get languages:
 ```
-TranslateApi.languages
+Itranslate4.languages
 ```
 Trnaslate:
 ```
-TranslateApi.translate('en','ru','hello word','optional translate method from get_routes') 
+Itranslate4.translate('en','ru','hello word','optional translate method from get_routes') 
 ```
 The GetRoutes function:
 ```
-TranslateApi.get_routes('en','ru')
+Itranslate4.get_routes('en','ru')
 ```
 The GetProviders function:
 ```
-TranslateApi.get_providers
+Itranslate4.get_providers
 ```
 
 

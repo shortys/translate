@@ -2,7 +2,13 @@ require 'rest-client'
 
 module Translate
 	SERVICE_URL='http://itranslate4.eu/api/'
-	class Itranslate4
+ 	
+ 	class Itranslate4 
+
+ 		def self.configure(options=nil)
+ 			p options
+ 			@config=Itranslate4.new(options)
+ 		end
 
 		def initialize(options=nil)
 		   @key=options[:key]
@@ -15,8 +21,8 @@ module Translate
 		  self.parse_response(e.response)
 		end
 
-  		def self.parse_response(response)
-    		{ code: response.code, body: response.body.empty? ? '' : JSON.parse(response.body, symbolize_names: true) }
+			def self.parse_response(response)
+			{ code: response.code, body: response.body.empty? ? '' : JSON.parse(response.body, symbolize_names: true) }
 		end
 
 		def translate(src, trg, dat='',rid=nil)
@@ -36,6 +42,7 @@ module Translate
 		def get_providers
 			Itranslate4.send_request :get, "#{SERVICE_URL}/GetProviders?auth=#{@key}"
 		end
-
 	end
+
+	
 end

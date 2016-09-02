@@ -102,12 +102,19 @@ Itranslate4.get_providers
 ```
 
 response:
+
 {
   \"ame.ts\":\"Amebis\",\"ape.ts\":\"Prompsit\",
+  
   \"lgt.ts\":\"Linguatec\",\"lin.ts\":null,
+  
   \"mor.ts\":\"MorphoLogic\",\"par.ts\":\"ParsTranslator\",
+  
   \"pro.ts\":\"PROMT\",\"pwn.ts\":\"pwn.pl\",
+  
   \"sky.ts\":\"SkyCode\",\"sys.ts\":\"SYSTRAN\",
+  
   \"trd.ts\":\"Trident\"
+  
 }
 

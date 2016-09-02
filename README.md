@@ -104,6 +104,7 @@ Itranslate4.get_providers
 response:
 
 {
+
   \"ame.ts\":\"Amebis\",\"ape.ts\":\"Prompsit\",
   
   \"lgt.ts\":\"Linguatec\",\"lin.ts\":null,
